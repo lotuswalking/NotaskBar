@@ -1,4 +1,6 @@
-﻿namespace NotaskBar
+﻿using System.Windows.Forms;
+
+namespace NotaskBar
 {
     partial class Form1
     {

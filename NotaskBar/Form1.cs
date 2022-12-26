@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace NotaskBar
 {
     public partial class Form1 : Form
