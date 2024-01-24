@@ -6,7 +6,7 @@ dotnet msbuild -property:Configuration=Release
 dotnet publish -p:Configuration=Release
 
 * [x] Cyberason:
-* [ ] 
+      
 C:\Program Files\Cybereason ActiveProbe\CrAmTray.exe
 
 C:\Program Files\Cybereason ActiveProbe\CrsSvc.exe
