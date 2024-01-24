@@ -5,11 +5,11 @@ dotnet msbuild -property:Configuration=Release
 
 dotnet publish -p:Configuration=Release
 
-[ ] * Cyberason:
+[ ]* Cyberason:
 C:\Program Files\Cybereason ActiveProbe\CrAmTray.exe
 C:\Program Files\Cybereason ActiveProbe\CrsSvc.exe
 
-[ ] * Malware Bytes:
+[ ]* Malware Bytes:
 C:\Program Files\Malwarebytes\Anti-Malware\MBAMInstallerService.exe
 
 C:\Program Files\Malwarebytes\Anti-Malware\MBAMService.exe
