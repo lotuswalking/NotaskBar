@@ -5,6 +5,8 @@ dotnet msbuild -property:Configuration=Release
 
 dotnet publish -p:Configuration=Release
 
+用于模拟病毒软件得启动项，欺骗VPN的检测程序
+
 * [x] Cyberason:
       
 C:\Program Files\Cybereason ActiveProbe\CrAmTray.exe
