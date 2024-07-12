@@ -12,8 +12,8 @@ namespace NotaskBar
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            this.notifyIcon1.BalloonTipTitle = "Òş²Ø´°¿Ú";
-            this.notifyIcon1.BalloonTipText = "ÄãÕıÔÚÒş²Ø´°¿Ú";
+            this.notifyIcon1.BalloonTipTitle = "éšè—çª—å£";
+            this.notifyIcon1.BalloonTipText = "ä½ æ­£åœ¨éšè—çª—å£";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.ShowBalloonTip(500);
             this.Hide();
@@ -22,8 +22,8 @@ namespace NotaskBar
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            this.notifyIcon1.BalloonTipTitle = "ÏÔÊ¾´°¿Ú";
-            this.notifyIcon1.BalloonTipText = "ÄãÕıÔÚÏÔÊ¾´°¿Ú";
+            this.notifyIcon1.BalloonTipTitle = "æ˜¾ç¤ºçª—å£";
+            this.notifyIcon1.BalloonTipText = "ä½ æ­£åœ¨æ˜¾ç¤ºçª—å£";
             this.notifyIcon1.ShowBalloonTip(500);
             this.Show();
             this.notifyIcon1.Visible=false;
