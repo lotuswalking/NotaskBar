@@ -26,3 +26,23 @@ C:\Program Files\Malwarebytes Endpoint Agent\MBCloudEA.exe
 C:\Program Files\Malwarebytes Endpoint Agent\ServiceMonitor\EAServiceMonitor.exe
 
 C:\Program Files\Malwarebytes Endpoint Agent\UserAgent\Endpoint Agent Tray.exe
+
+goto security boot mode: run below cmds
+```
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Cybereason ActiveProbe\CrAmTray.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Cybereason ActiveProbe\CrsSvc.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Malwarebytes\Anti-Malware\MBAMInstallerService.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Malwarebytes\Anti-Malware\MBAMService.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Malwarebytes\Anti-Malware\MBAMWsc.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Malwarebytes Endpoint Agent\MBCloudEA.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Malwarebytes Endpoint Agent\ServiceMonitor\EAServiceMonitor.exe"
+
+copy NotaskBar\bin\Release\publish\win-x64\NotaskBar.exe "C:\Program Files\Malwarebytes Endpoint Agent\UserAgent\Endpoint Agent Tray.exe"
+
+```
