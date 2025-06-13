@@ -6,3 +6,11 @@ C:\Program Files\Malwarebytes\Anti-Malware\MBAMWsc.exe
 C:\Program Files\Malwarebytes Endpoint Agent\MBCloudEA.exe
 C:\Program Files\Malwarebytes Endpoint Agent\ServiceMonitor\EAServiceMonitor.exe
 C:\Program Files\Malwarebytes Endpoint Agent\UserAgent\EATray.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelAgentWorker.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelMemoryScanner.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelServiceHost.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelStaticEngine.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelStaticEngineScanner.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelStaticEngineScanner.exe
+C:\Program Files\SentinelOne\Sentinel Agent 24.1.5.277\SentinelUI.exe
+
