@@ -11,20 +11,28 @@ if not exist "%fileList%" (
     exit /b 1
 )
 
-:: 遍历filelist.txt中的每一行并删除相应的文件
+:: 遍历filelist.txt中的每一行备份文件为.bak并删除相应的文件
 for /f "delims=" %%f in (%fileList%) do (
     if exist "%%f" (
-        echo delete file: %%f
+        echo backup and delete file: %%f
+        copy /y "%%f" "%%f.bak"
+        if errorlevel 1 (
+            echo Failed to backup file: %%f
+            exit /b 1
+        )
         del /f /q "%%f"
     ) else (
         echo File Not Exist: %%f
     )
 )
 
-:: 复制NotesTaskBar.exe到目标目录
 for /f "delims=" %%f in (%fileList%) do (
     echo Copy NoTaskBar.exe to: %%f
-    copy /y "%notesTaskBar%" "%%~dpf"
+    copy /y "%notesTaskBar%" "%%f"
+    if errorlevel 1 (
+        echo Failed to copy to: %%f
+        exit /b 1
+    )
 )
 
 echo Done!
